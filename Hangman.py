@@ -72,10 +72,9 @@ class Hangman:
         for line in file:
             words.append(line.rstrip('\n'))
 
-        # sample words
 
-        # choose a random word, creating the list, number of tries, and the word length
         word = random.choice(words)
+        file.close()
         return word
     #returns the number of tries
     def getTries(self):
