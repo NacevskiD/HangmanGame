@@ -1,0 +1,5 @@
+android
+apple
+microsoft
+macintosh
+toshiba
